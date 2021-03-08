@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
                       Implicit observer removal on controller dealloc.
                       Thread-safety with special guards against observer resurrection.
                       DESC
-  spec.source       = { :git => 'https://github.com/HerenMA/KVOController.git', :tag => s.version.to_s }
+  spec.source       = { :git => 'https://github.com/HerenMA/KVOController.git', :tag => spec.version.to_s }
   spec.source_files = 'FBKVOController/*.{h,m}'
   spec.requires_arc = true
 
